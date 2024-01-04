@@ -182,7 +182,7 @@ fun AlbumScreen(browseId: String) {
                 tabIndex = tabIndex,
                 onTabChanged = { tabIndex = it },
                 tabColumnContent = { Item ->
-                    Item(0, "Songs", R.drawable.musical_notes)
+                    Item(0, "Songs", R.drawable.group_91)
                     Item(1, "Other versions", R.drawable.disc)
                 }
             ) { currentTabIndex ->

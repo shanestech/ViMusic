@@ -177,7 +177,7 @@ fun ArtistScreen(browseId: String) {
                 onTabChanged = { tabIndex = it },
                 tabColumnContent = { Item ->
                     Item(0, "Overview", R.drawable.sparkles)
-                    Item(1, "Songs", R.drawable.musical_notes)
+                    Item(1, "Songs", R.drawable.music1)
                     Item(2, "Albums", R.drawable.disc)
                     Item(3, "Singles", R.drawable.disc)
                     Item(4, "Library", R.drawable.library)

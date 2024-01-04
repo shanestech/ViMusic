@@ -53,7 +53,7 @@ fun SettingsScreen() {
                 tabIndex = tabIndex,
                 onTabChanged = onTabChanged,
                 tabColumnContent = { Item ->
-                    Item(0, "Appearance", R.drawable.color_palette)
+                    Item(0, "esterify", R.drawable.esterify)
                     Item(1, "Player", R.drawable.play)
                     Item(2, "Cache", R.drawable.server)
                     Item(3, "Database", R.drawable.server)

@@ -152,7 +152,7 @@ fun QuickPicks(
                 )
         ) {
             Header(
-                title = "Quick picks",
+                title = "Trending",
                 modifier = Modifier
                     .padding(endPaddingValues)
             )

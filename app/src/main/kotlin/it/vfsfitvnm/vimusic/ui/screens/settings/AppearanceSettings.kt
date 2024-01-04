@@ -62,7 +62,7 @@ fun AppearanceSettings() {
                     .asPaddingValues()
             )
     ) {
-        Header(title = "Appearance")
+        Header(title = "Stylize")
 
         SettingsEntryGroupText(title = "COLORS")
 

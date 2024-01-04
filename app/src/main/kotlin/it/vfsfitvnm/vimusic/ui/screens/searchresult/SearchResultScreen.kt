@@ -88,7 +88,7 @@ fun SearchResultScreen(query: String, onSearchAgain: () -> Unit) {
                     Item(2, "Artists", R.drawable.person)
                     Item(3, "Videos", R.drawable.film)
                     Item(4, "Playlists", R.drawable.playlist)
-                    Item(5, "Featured", R.drawable.playlist)
+                    Item(5, "Trending", R.drawable.playlist)
                 }
             ) { tabIndex ->
                 saveableStateHolder.SaveableStateProvider(tabIndex) {
@@ -146,7 +146,7 @@ fun SearchResultScreen(query: String, onSearchAgain: () -> Unit) {
                         }
 
                         1 -> {
-                            val thumbnailSizeDp = 108.dp
+                            val thumbnailSizeDp = 120.dp
                             val thumbnailSizePx = thumbnailSizeDp.px
 
                             ItemsPage(
